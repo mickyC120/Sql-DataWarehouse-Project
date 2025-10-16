@@ -2,23 +2,26 @@
 
 📌 Project Overview
 
-Hey there! Welcome to my Data Warehouse repository, where I'm building a Modern Data Warehouse using SQL Server. This project is all about designing and implementing ETL processes, data modeling, and analytics to turn raw data into powerful business insights. My goal is to create a scalable, efficient, and optimized data warehouse that supports business intelligence and decision-making.
+Hey there! Welcome to my Data Warehouse repository. I'm building a Modern Data Warehouse using SQL Server. This project demonstrates the design and implementation of a modern SQL-based data warehouse built with the Medallion Architecture (Bronze, Silver, Gold). 
+It consolidates data from ERP and CRM systems to deliver unified, analytics-ready datasets that drive sales performance insights and data-informed decision-making.
 
-## 🎯 What This Project is About
+By building this warehouse, I replicated a real-world enterprise data pipeline — transforming raw transactional data into business-ready reporting layers.
 
-Designing a structured Data Warehouse (DW) for analytical queries.
-Implementing ETL pipelines to extract, transform, and load data efficiently.
-Developing data models (Star and Snowflake schemas) to enhance performance and reporting.
-Performing data cleansing, transformation, and aggregation for business intelligence.
-Writing optimized SQL queries to generate insightful reports.
+This project is all about designing and implementing ETL processes, data modeling, and analytics to turn raw data into powerful business insights. My goal is to create a scalable, efficient, and optimized data warehouse that supports business intelligence and decision-making.
 
-### ⚙️ Tech Stack & Tools I’m Using
-Database Management: SQL Server 2019/2022
-ETL Tools: SQL Server Integration Services (SSIS), Python (for data manipulation)
-Data Modeling: Star Schema, Snowflake Schema, Dimensional Modeling
-Analytics & BI: SQL Server Reporting Services (SSRS), Power BI, Tableau
-Storage & Processing: SQL Server Tables, Views, Stored Procedures, Indexing, Partitioning
-Automation & Scheduling: SQL Server Agent, Python scripts for automation
+## 💼 Business Problem
+The organization manages data from multiple systems (ERP and CRM), resulting in data silos, inconsistent reporting, and poor visibility into sales performance.
+This project solves that by integrating, cleaning, and modeling data into a centralized warehouse, enabling accurate, consistent, and automated reporting.
+
+### 🧩 Methodology
+* **Architecture Design**
+<img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/4818a551-e426-4115-8c95-a3db49b2074e" />
+- Implemented**Medallion Architecture** with three layers:
+  - **Bronze Layer:** Raw ingestion from ERP & CRM sources (CSV)
+  - **Silver Layer:** Data cleaning, standardization, and transformation
+  - **Gold Layer:** Aggregated, business-ready datasets for reporting
+- Ensured scalability and maintainability with **modular SQL scripts**.
+
 
 #### 🏗️ Project Architecture
 Here’s how the project is structured:
