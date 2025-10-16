@@ -14,7 +14,7 @@ The organization manages data from multiple systems (ERP and CRM), resulting in 
 This project solves that by integrating, cleaning, and modeling data into a centralized warehouse, enabling accurate, consistent, and automated reporting.
 
 ### 🧩 Methodology
-* **Architecture Design**
+### 1. **Architecture Design**
 <img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/4818a551-e426-4115-8c95-a3db49b2074e" />
 
 - Implemented **Medallion Architecture** with three layers:
@@ -23,6 +23,19 @@ This project solves that by integrating, cleaning, and modeling data into a cent
   - **Gold Layer:** Aggregated, business-ready datasets for reporting
 - Ensured scalability and maintainability with **modular SQL scripts**.
 
+### 2. **ETL Development**
+- Built ETL pipelines using **SQL scripts and stored procedures**.  
+- Automated data ingestion from CSV files into staging tables.  
+- Applied transformation logic (joins, aggregations, deduplication, data quality rules).
+
+### 3. **Data Modeling**
+- Designed a **star schema**:
+<img width="5660" height="2936" alt="data_flow" src="https://github.com/user-attachments/assets/89b76218-b267-4781-9442-02569259ef75" />
+
+
+  - **FactSales** (sales transactions)
+  - **DimCustomer**, **DimProduct**, **DimDate**, **DimRegion**
+- Optimized indexing and partitioning for analytical performance.
 
 #### 🏗️ Project Architecture
 Here’s how the project is structured:
