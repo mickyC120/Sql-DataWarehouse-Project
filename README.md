@@ -16,7 +16,8 @@ This project solves that by integrating, cleaning, and modeling data into a cent
 ### 🧩 Methodology
 * **Architecture Design**
 <img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/4818a551-e426-4115-8c95-a3db49b2074e" />
-- Implemented**Medallion Architecture** with three layers:
+
+- Implemented **Medallion Architecture** with three layers:
   - **Bronze Layer:** Raw ingestion from ERP & CRM sources (CSV)
   - **Silver Layer:** Data cleaning, standardization, and transformation
   - **Gold Layer:** Aggregated, business-ready datasets for reporting
