@@ -1,13 +1,12 @@
-# Welcome to My Data Warehouse Repository! 🚀
+# Executive Summary
 
-📌 Project Overview
-
+### 📌 Project Overview
 Hey there! Welcome to my Data Warehouse repository. I'm building a Modern Data Warehouse using SQL Server. This project demonstrates the design and implementation of a modern SQL-based data warehouse built with the Medallion Architecture (Bronze, Silver, Gold). 
 It consolidates data from ERP and CRM systems to deliver unified, analytics-ready datasets that drive sales performance insights and data-informed decision-making.
 
 By building this warehouse, I replicated a real-world enterprise data pipeline — transforming raw transactional data into business-ready reporting layers.
 
-This project is all about designing and implementing ETL processes, data modeling, and analytics to turn raw data into powerful business insights. My goal is to create a scalable, efficient, and optimized data warehouse that supports business intelligence and decision-making.
+**Key Features:** `SQL Server` · `Data Warehouse` · `ETL` · `Medallion Architecture` · `Data Modeling` · `Analytics` · `Business Intelligence`
 
 ## 💼 Business Problem
 The organization manages data from multiple systems (ERP and CRM), resulting in data silos, inconsistent reporting, and poor visibility into sales performance.
@@ -28,32 +27,36 @@ This project solves that by integrating, cleaning, and modeling data into a cent
 - Automated data ingestion from CSV files into staging tables.  
 - Applied transformation logic (joins, aggregations, deduplication, data quality rules).
 
-### 3. **Data Modeling**
+### 3. **Data Model**
 - Designed a **star schema**:
-<img width="5660" height="2936" alt="data_flow" src="https://github.com/user-attachments/assets/89b76218-b267-4781-9442-02569259ef75" />
+<img width="6033" height="2249" alt="data_model" src="https://github.com/user-attachments/assets/bcbb5066-691b-4f92-a96b-08241857d94a" />
+
+-Data Modeling Approach
+  - **Fact Tables:** store measurable business data (sales, transactions, revenue).
+  - **Dimension Tables:** contain descriptive attributes (e.g., customer details, product categories, time periods).
+
+### 4. **Analytics & Reporting**
+- Developed analytical SQL queries, views for:
+  - Customer Behaviour
+  - Product Performance
+  - Sales Trend
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 
-  - **FactSales** (sales transactions)
-  - **DimCustomer**, **DimProduct**, **DimDate**, **DimRegion**
-- Optimized indexing and partitioning for analytical performance.
+## 🧠 Skills & Tools  
+**Languages & Technologies:** SQL Server, T-SQL, SSMS  
+**Concepts:** Data Architecture · Medallion Design · ETL Pipelines · Star Schema · BI Reporting  
 
-#### 🏗️ Project Architecture
-Here’s how the project is structured:
-Data Sources: Raw data from multiple sources (CSV, JSON, APIs, Relational Databases, etc.).
-Staging Area: Temporary storage where data is cleansed and transformed before loading into the warehouse.
-Data Warehouse: Centralized database with optimized schema (Fact & Dimension tables).
-BI & Reporting Layer: Dashboards, reports, and insights using Power BI/Tableau/SSRS.
-📊 Data Modeling Approach
-Fact Tables: Store measurable business data (e.g., sales, transactions, revenue).
-Dimension Tables: Contain descriptive attributes (e.g., customer details, product categories, time periods).
-Schema Design: Using Star and Snowflake schemas for optimized performance.
+## 📊 Results & Business Impact  
+✅ Unified sales data from multiple systems into a single trusted warehouse.  
+✅ Reduced data redundancy and inconsistency across departments.  
+✅ Enabled self-service reporting and faster business insights.  
 
-##### 🚀 Key Features of This Project
-Fast, high-performance SQL queries for analytical processing.
-Automated ETL workflows using SSIS & SQL Server Agent.
-Well-structured Data Warehouse with indexing & partitioning for optimization.
-Interactive BI Dashboards to visualize real-time insights.
-Scalable architecture that can handle large datasets.
+## 🔍 Next Steps  
+- Integrate with **Power BI** for real-time dashboards.  
+- Implement **data validation scripts** for continuous quality checks.  
+- Explore automation with **Azure Data Factory** or **Airflow**.  
+
 
 ###### 👨‍💻 A Little About Me
 Hi! I’m Micheal Ani, a Business Data Analyst & BI Specialist with a passion for data analytics, visualization, and business intelligence. With 3 years of experience and more than 20 completed projects, I specialize in transforming raw data into meaningful insights. I make use of Data analytics to solve business problems and drive data-driven decision-making.
