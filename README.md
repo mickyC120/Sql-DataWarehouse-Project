@@ -61,4 +61,4 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ###### 👤 About Me
 I'm **Micheal Ani**, a **Business Data Analyst & Business Intelligence**. I blend **business acumen** with **data expertise**.
 Transforming data into clarity, strategy, and measurable business growth.  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AN--MICHEAL-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/micheal-ani-b76716291)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ANI--MICHEAL-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/micheal-ani-b76716291)
