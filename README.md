@@ -58,5 +58,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 - Explore automation with **Azure Data Factory** or **Airflow**.  
 
 
-###### 👨‍💻 A Little About Me
-Hi! I’m Micheal Ani, a Business Data Analyst & BI Specialist with a passion for data analytics, visualization, and business intelligence. With 3 years of experience and more than 20 completed projects, I specialize in transforming raw data into meaningful insights. I make use of Data analytics to solve business problems and drive data-driven decision-making.
+###### 👤 About Me
+I'm **Micheal Ani**, a **Business Data Analyst & Business Intelligence**. I blend **business acumen** with **data expertise**.
+Transforming data into clarity, strategy, and measurable business growth.  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AN--MICHEAL-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/micheal-ani-b76716291)
